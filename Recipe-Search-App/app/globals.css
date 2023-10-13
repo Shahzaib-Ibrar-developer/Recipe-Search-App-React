@@ -1,0 +1,60 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* styles.css */
+
+/* Style the grid container */
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Style individual recipe cards */
+  .recipe-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the recipe image */
+  .recipe-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style the recipe title */
+  .recipe-card h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  /* Style the ingredient list */
+  .recipe-card h2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .recipe-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recipe-card li {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+
+  .Search{
+   
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+  }
+.recipe-card ul{
+    list-style-type: disc;
+}
